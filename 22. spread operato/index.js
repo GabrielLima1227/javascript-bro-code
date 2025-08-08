@@ -1,20 +1,19 @@
 /*
-    Array = A Variable Like Structure That Can Hold More Than 1 Value
+    Spread Operator = ... Allows an Interable such as an Array or String to be expanded into sperate elements (Unpack The Elements)
 */
-let fruits = ["apple", "orange", "banana", "coconut"];
 
-fruits.push("coconut");
-fruits.pop();
-fruits.unshift("mango");
-fruits.shift();
-fruits.sort();
-fruits.reverse();
+let numbers = [1,2,3,4,5];
+let maximum = Math.max(...numbers);
+let minimun = Math.min(...numbers);
+console.log(maximum);
+console.log(minimun);
 
-let numOfFruits = fruits.length;
-let index = fruits.indexOf("mango");
 
-console.log(index);
+let userName = "Bro Code";
+let letters = [...userName].join("-");
+console.log(letters);
 
-for(let fruit of fruits){
-console.log(fruit);
-}
+let fruits = ["apple", "onrage", "banana"];
+let vegetables = ["carrots", "celery", "potatoes"];
+let food = [...fruits, ...vegetables, "eggs", "milk"];
+console.log(food);
