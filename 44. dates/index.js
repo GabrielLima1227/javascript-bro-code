@@ -1,7 +1,7 @@
 /*
     Date objects = Objects that contain values that represent dates and times These date objects can be changed and formatted
 */
-//Date(Year, MOth, Day, Hour, Minute, Second, Mile Seconds)
+//Date(Year, Moth, Day, Hour, Minute, Second, Mile Seconds)
 const date = new Date(1754933837559);
 console.log(date);
 
