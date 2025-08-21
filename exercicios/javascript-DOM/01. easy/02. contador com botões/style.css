@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    min-height: 100dvh;
+}
+
+p{
+    font-size: 7rem;
+    margin-bottom: 2rem;
+}
+
+.botoes{
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 16px;
+}
+
+#incrementar{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(118, 196, 118);
+}
+
+#resetar{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(145, 180, 192);
+}
+
+#decrementar{
+    color: white;
+    cursor: pointer;
+    background-color: lightcoral;
+}   
